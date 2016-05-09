@@ -1,0 +1,245 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	background-color: pink;
+}
+
+#container{
+	width: 1680px;
+	height: 1372px;
+	margin-top: 40px;
+	margin-left: 112px;
+	margin-bottom: 40px;
+	background-color: #e6e6e6;
+}
+
+
+/* this is the css for the rows on the work page*/
+#yellow{
+	width: 1620px;
+	height:  447px;
+	margin-left: 30px;
+	background-color: yellow;
+	position: relative;
+	top: -260px;
+	
+}
+
+#blue{
+	width: 1620px;
+	height:  447px;
+	margin-top: 30px;
+	margin-left: 30px;
+	background-color: blue;
+	position: relative;
+	top: -275px;
+}
+
+#purple{
+	width: 1620px;
+	height:  447px;
+	margin-top: 30px;
+	margin-left: 30px;
+	background-color: purple;
+	position: relative;
+	top: -290px;
+}
+
+
+
+/* this is the css for the images on the work page */
+#camera{
+	width: 400px;
+	height: 240px;
+    z-index: 1;
+	position: relative;
+	top: 100px;
+	left: 644px;
+	
+	
+}
+
+
+#design{
+	width: 400px;
+	height: 240px;
+    z-index: 1;
+	position: relative;
+	top: 560px;
+	left: 240px;	
+	
+}
+
+#media{
+	width: 400px;
+	height: 240px;
+	z-index: 1;
+	position: relative;
+	top: 1030px;
+	right: 163px;
+}
+
+
+
+/* this is the css for the image on the nav bar */
+#ak1{
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	z-index: 1;
+	
+}
+
+
+/* this is the css for the div that contains the image on the nav bar */
+#ak{
+    position: absolute;
+	top: 3px;
+	left: 1594px;
+	z-index: 1;
+}
+
+
+
+/* this is the css for the footer */
+footer{
+	position: absolute;	
+	top: 1400px;
+	left: 937px;
+	bottom: 0px;
+    z-index: 1;
+	font-size: 20px;
+}
+
+
+/* this is the css for the links on the work page */
+#photography a:link, #photography a:visited{
+	text-align: center;
+	width: 190px;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	text-decoration: underline;
+	background-color: yellow;
+	text-transform: uppercase;
+	z-index: 1;
+	border-radius: 4px;
+	position: relative;
+	top: 200px;
+	left: 180px;
+	border: 1px solid white;
+	color: black;
+
+}	
+
+#photography a:hover, #photography a:active {
+	background-color: blue;
+	color: black;
+ }
+
+ 
+ #Design a:link, #Design a:visited{
+	text-align: center;
+	width: 110px;
+	position: relative;
+	top: 200px;
+	left: 180px;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	text-decoration: underline;
+	background-color: blue;
+	text-transform: uppercase;
+	z-index: 1;
+	border-radius: 4px;
+	border: 1px solid white;
+	color: black;
+
+}	
+
+#Design a:hover, #Design a:active {
+	background-color: purple;
+	color: black;
+ }
+
+
+  #Media a:link, #Media a:visited{
+	text-align: center;
+	width: 110px;
+	position: relative;
+	top: 200px;
+	left: 180px;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	text-decoration: underline;
+	background-color: purple;
+	text-transform: uppercase;
+	z-index: 1;
+	border-radius: 4px;
+	border: 1px solid white;
+	color: black;
+	
+
+}	
+
+#Media a:hover, #Media a:active {
+	background-color: yellow;
+	color: black;
+ }
+ 
+ 
+
+
+/* this is the css for the nav bar */
+#nav{
+    position: absolute;
+	top: 3px;
+	left: 1702px;
+	z-index: 1;
+}
+
+nav{
+	padding: 0px;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+nav li {
+	float: left;
+	
+}
+ 
+ 
+ 
+ nav a:link, nav a:visited {
+     display: block;
+     width: 90px;
+     font-weight: bold;
+     color: black;
+     text-align: center;
+     padding: 4px;
+     text-decoration: underline;
+     text-transform: uppercase;
+	 background-color: white;
+	 font-size: 25px;
+	 margin-right: 10px;
+ }
+ 
+ 
+ 
+ nav a:hover, nav a:active {
+	opacity: 0.6;
+	background-color: pink;
+	color: #808080;
+ }

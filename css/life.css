@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	background-color: pink;
+	font-size: 0px;
+}
+
+#container{
+	width: 1680px;
+	height: 910px;
+	margin-top:40px;
+	margin-left: 112px;
+	padding-bottom: 0px;
+	background-color: #e6e6e6;
+}
+
+
+
+/* this is the css for the three columns joined together on the life page */
+#left{
+	width:   300px;
+	height:  910px;
+	background-color: yellow;	
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+#right{
+	width:   300px;
+	height: 910px;
+	display: inline-block;
+	background-color: yellow;
+	vertical-align: top;
+
+}
+
+
+#center{
+	width: 1080px;
+	height: 910px;
+	background-color: #e60000;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/* this is the css for the heading */
+h1{
+	background-color: yellow;
+	color: #e60000;
+	font-size: 60px;
+	text-align: center;
+    font-family:  cursive;
+}  
+
+
+
+/* this is the css for the image on the nav bar */
+#ak1{
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	z-index: 1;
+	
+}
+
+
+/* this is the css for the div that contains the image on the nav bar */
+#ak{
+    position: absolute;
+	top: 3px;
+	left: 1594px;
+	z-index: 1;
+}
+
+
+#p{
+	text-align: center;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	background-color: orange;
+	color: #e60000;
+	margin: 20px;
+
+}
+
+
+#profilepic{
+	width: 200px;
+	height: 60px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+
+/* this is the css for the note on the life page */
+#Note{
+	text-align: center;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 32px;
+	background-color: yellow;
+	color: black;
+	margin: 20px;
+	
+}	
+span{
+	color: #e60000;
+}
+
+
+/* this is the css for the footer */
+footer{
+	position: absolute;
+	top: 940px;
+	left: 937px;
+	bottom: 0px;
+	font-size: 20px;
+
+}
+
+
+/* this is the css for the links on the life page */
+#link a:link,#link a:visited{
+	text-align: center;
+	font-style: italic;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 32px;
+	background-color: orange;
+	color: black;
+	text-decoration: underline;
+	background-color: orange;
+	border-radius: 4px;
+	border: 1px solid white;
+	width: 200px;
+	position: relative;
+	top: 10px;
+
+}	
+
+#link a:hover,#link a:active {
+	background-color: #e60000;
+	color: orange;
+ }
+	
+ 
+
+
+
+
+/* this is the css for the nav bar */
+#nav{
+    position: absolute;
+	top: 3px;
+	left: 1702px;
+}
+
+nav{
+	padding: 0px;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+nav li {
+	float: left;
+	
+}
+ 
+ 
+ 
+ nav a:link, nav a:visited {
+     display: block;
+     width: 90px;
+     font-weight: bold;
+     color: black;
+     text-align: center;
+     padding: 4px;
+     text-decoration: underline;
+     text-transform: uppercase;
+	 background-color: white;
+	 font-size: 25px;
+	 margin-right: 10px;
+ }
+ 
+ 
+ 
+ 
+ nav a:hover, nav a:active {
+	opacity: 0.6;
+	background-color: pink;
+	color: #808080;
+ }

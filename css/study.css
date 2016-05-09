@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.jumbotron{
+	margin-top: 10px;
+	background-color: orange;
+	background-image: url("../images/background.png");
+    color: white;
+    text-shadow:  1.5px 1.5px 1.5px black;
+    background-size: 1150px 260px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    margin-bottom: 14px;	
+	
+   
+} 
+
+
+.bio{
+	text-align: center;
+	border: 3px dashed orange;
+}
+
+
+
+.heading{
+	color: #33cccc;
+	text-shadow:  2px 2px 2px black;
+}
+
+
+.biob{
+	text-align: center;
+	border: 3px dashed #33cccc;
+}
+
+
+
+#jumbop{
+	color: white;
+}
+
+
+p{
+	color: black;
+}
+
+
+#biop{
+	margin: auto;
+	margin-left: 70px;
+	margin-right: 70px;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 17px;
+}
+
+footer{
+     text-align: center;
+	 margin-bottom: 18px;
+	
+}
+
+
+li {
+	border-right: 4px solid #33cccc;
+	
+}
+
+
+
+.navbar-brand{
+	border-right: 4px solid #33cccc;
+	font-weight: bold;
+	text-shadow:  1px 1px 1px white;
+	
+}
+
+
+
+
+.navbar-static-top {
+	margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: orange;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 17px;
+	border: 4px solid gray;
+	border-radius: 8px;
+
+}
+  
+
+.portfolio{
+	border: 3px dashed #33cccc;
+}
+
+
+
+.ph{
+	text-align: center;
+	color: orange;
+	text-shadow:  2px 2px 4px white;
+	font-size: 50px;
+}
+
+.img-center {
+	margin: 0 auto;
+	border: 3px dashed white;
+	height: 300px;
+}
+
+
+.row{
+	border: 3px dashed #33cccc;
+	background-image: url("../images/background.png");
+}
+
+
+.port{
+	color: #33cccc;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+h3{
+	color: orange;
+	background-color: white;
+	border-radius: 25px;
+	text-shadow:  1px 1px 1px black;
+}
+
+
+
+

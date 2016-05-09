@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	background-color: pink;
+	
+}
+
+#container{
+	width: 910px;
+	height: 910px;
+	background-color: #e6e6e6;
+}
+
+
+/* this is the css for the rows on the about page */
+#red{
+	width: 1620px;
+	height:  447px;
+	margin-left: 30px;
+	background-color: red;
+	position: relative;
+	top: -320px;	
+	
+}
+
+#orange{
+	width: 1620px;
+	height:  447px;
+	margin-left: 30px;
+	background-color: orange;
+	position: relative;
+	top: -320px;	
+}
+
+
+
+/* this is the css for the images on the about page */
+#heart{
+	width: 300px;
+	height: 300px;
+    z-index: 1;
+	position: relative;
+	top: 75px;
+	left: 700px;
+	
+}
+
+
+#hat{
+	width: 300px;
+	height: 300px;
+    z-index: 1;
+	position: relative;
+	top: 540px;
+	left: 390px;	
+	
+}
+
+
+/* this is the css for the image on the nav bar */
+#ak1{
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	z-index: 1;
+	
+}
+
+
+/* this is the css for the div that contains the image on the nav bar */
+#ak{
+    position: absolute;
+	top: 3px;
+	left: 1594px;
+	z-index: 1;
+}
+
+
+
+
+/* this is the css for the links on the about page */
+#study a:link, #study a:visited{
+	text-align: center;
+	width: 150px;
+	position: relative;
+	top: 205px;
+	left: 745px;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	text-decoration: underline;
+	background-color: orange;
+	text-transform: uppercase;
+	z-index: 1;
+	border-radius: 4px;
+	border: 1px solid white;
+	display: block;
+    color: black;
+
+}	
+
+#study a:hover, #study a:active {
+	opacity: 0.8;
+	background-color: orange;
+	color: black;
+ }
+
+ 
+ #life a:link, #life a:visited{
+	text-align: center;
+	width: 105px;
+	position: relative;
+	top: 200px;
+	left: 770px;
+	font-weight: bold;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	text-decoration: underline;
+	background-color: #ff0000;
+	text-transform: uppercase;
+	z-index: 1;
+	border-radius: 4px;
+	border: 1px solid white;
+    display: block;
+    color: black;
+
+}	
+
+#life a:hover, #life a:active {
+	opacity: 0.4;
+	background-color: red;
+	color: black;
+ }
+
+
+
+/* this is the css for the footer */
+footer{
+    text-align: center;
+	position: absolute;
+	top: 940px;
+	left: 830px;
+	bottom: 0px;
+	font-size: 20px;
+
+}
+
+
+
+/* this is the css for the nav bar */
+#nav{
+    position: absolute;
+	top: 3px;
+	left: 1702px;
+}
+
+nav{
+	padding: 0px;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+nav li {
+	float: left;
+	
+}
+ 
+ 
+ 
+ nav a:link, nav a:visited {
+     display: block;
+     width: 90px;
+     font-weight: bold;
+     color: black;
+     text-align: center;
+     padding: 4px;
+     text-decoration: underline;
+     text-transform: uppercase;
+	 background-color: white;
+	 font-size: 25px;
+	 margin-right: 10px;
+ }
+ 
+ 
+ 
+ 
+ nav a:hover, nav a:active {
+	opacity: 0.6;
+	background-color: pink;
+	color: #808080;
+ }
